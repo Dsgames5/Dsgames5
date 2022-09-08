@@ -13,3 +13,11 @@
 h1::selection {
     background: #ff4e4e;
 }
+
+body {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
