@@ -1,5 +1,5 @@
 ::selection {
-    color: #000000;
+    color: #4364F7;
 }
 
 #myVideo {
@@ -11,7 +11,7 @@
 }
 
 h1::selection {
-    background: #ff4e4e;
+    background: #4364F7;
 }
 
 body {
