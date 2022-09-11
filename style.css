@@ -21,3 +21,23 @@ body {
     overflow: hidden;
     text-align: center;
 }
+
+img{
+ padding-top: 20px;
+ padding-right: 100px;
+ padding-bottom: 50px;
+ padding-left: 100px;
+ 
+ border: solid 2px gray;
+ width: 100px;
+ height: 100px;
+ background-color: white;
+} 
+
+body{ 
+ background-color: azure;
+ text-align: center;
+}
+
+
+
