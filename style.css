@@ -1,5 +1,5 @@
 ::selection {
-    color: #4364F7;
+    color: #DAF7A6;
 }
 
 #myVideo {
@@ -11,8 +11,14 @@
 }
 
 h1::selection {
+  align-items: center;
     background: #4364F7;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
 }
+
 
 body {
     /* display: flex; */
