@@ -1,5 +1,5 @@
 ::selection {
-    color: #DAF7A6;
+    color: #000000;
 }
 
 #myVideo {
@@ -12,12 +12,13 @@
 
 h1::selection {
   align-items: center;
-    background: #4364F7;
+    background: #000000;
     position: fixed;
     right: 0;
     bottom: 0;
     
 }
+
 
 
 body {
@@ -41,9 +42,72 @@ img{
 } 
 
 body{ 
- background-color: azure;
+ background-color: black;
  text-align: center;
 }
 
 
+li {
+  float: right;
+}
 
+li a {
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size:14px;
+}
+li a:hover {
+  text-decoration: underline;
+  
+  
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+.grid{
+  height:23px;
+  position:relative;
+  bottom:4px;
+}
+.signbutton{
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius:3px;
+  padding:7px 10px;
+  position:relative;
+  bottom:7px;
+  font-weight:bold;
+}
+.logo{
+  margin-top:200px;
+  margin-bottom:20px;
+}
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
