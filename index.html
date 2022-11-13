@@ -33,6 +33,12 @@
             border-radius: 18px;
         }
         
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
         button{
   border: round;
   color: black;
@@ -74,10 +80,52 @@
   margin: 4px 2px;
   cursor: pointer;
 border-radius: 8px;} /* Black */
+
+ Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
     </style>
+     <div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="Social media.html">Social media</a>
+  <a href="games.html">Games</a> 
+  <a href="modapk.html">Apps</a>
 </head>
+ 
 <body>
+
+</div>
+  </head>
+  <body>
+    <br><br><br><br>
     <center>
+    
       <img src="20221112_005816.png">
        <h1 class="welcome">X LAUNCHER</h1>
        <h4>minecraft java edition launcher for Android</h4>
@@ -106,5 +154,11 @@ border-radius: 8px;} /* Black */
     <br>
     <br>
     </center>
+   <ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
 </body>
 </html>
